@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - פתרונות חכמים לעסק שלך</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">TechFlow</div>
+            <ul class="nav-links">
+                <li><a href="#features">מאפיינים</a></li>
+                <li><a href="#pricing">מחירים</a></li>
+                <li><a href="#contact">צור קשר</a></li>
+            </ul>
+            <button class="cta-btn nav-cta" id="navCta">התחל עכשיו</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">הפוך את העסק שלך לחכם יותר</h1>
+                    <p class="hero-subtitle">פלטפורמה מתקדמת לאוטומציה, ניהול וצמיחה - הכל במקום אחד</p>
+                    <div class="hero-buttons">
+                        <button class="cta-btn primary" id="heroCta">נסה בחינם ל-14 יום</button>
+                        <button class="cta-btn secondary" id="demoBtn">צפה בהדגמה</button>
+                    </div>
+                    <p class="hero-trust">ללא כרטיס אשראי • ביטול בכל עת • 500+ חברות סומכות עלינו</p>
+                </div>
+                <div class="hero-visual">
+                    <div class="dashboard-preview">
+                        <div class="dashboard-header">
+                            <div class="dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="stat-card">
+                                <span class="stat-value">+34%</span>
+                                <span class="stat-label">צמיחה החודש</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value">2,847</span>
+                                <span class="stat-label">משתמשים פעילים</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value">98%</span>
+                                <span class="stat-label">שביעות רצון</span>
+                            </div>
+                        </div>
+                        <div class="chart-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>כל מה שאתה צריך להצליח</h2>
+                    <p>כלים עוצמתיים שפותחו במיוחד עבור עסקים מודרניים</p>
+                </div>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>אוטומציה חכמה</h3>
+                        <p>חסוך שעות עבודה עם זרימות עבודה אוטומטיות שמתאימות את עצמן לעסק שלך</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>אנליטיקס בזמן אמת</h3>
+                        <p>קבל תובנות מיידיות עם דשבורדים מותאמים אישית ודוחות אוטומטיים</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">🔗</div>
+                        <h3>אינטגרציות חלקות</h3>
+                        <p>התחבר ל-100+ כלים שאתה כבר משתמש בהם - Slack, Notion, Salesforce ועוד</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>אבטחה מתקדמת</h3>
+                        <p>הצפנה ברמה בנקאית, תאימות SOC2, וניהול הרשאות גמיש לצוות שלך</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">🤝</div>
+                        <h3>שיתוף פעולה בצוות</h3>
+                        <p>עבודה משותפת בזמן אמת, תגובות, משימות ואישורים - הכל בפלטפורמה אחת</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>נגישות מכל מקום</h3>
+                        <p>אפליקציות מותאמות ל-iOS, Android ו-Web - העסק שלך תמיד בכיס שלך</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2>תמחור פשוט ושקוף</h2>
+                    <p>בחר את התוכנית שמתאימה לך - ללא הפתעות</p>
+                </div>
+                <div class="pricing-toggle">
+                    <span class="toggle-label">חודשי</span>
+                    <label class="switch">
+                        <input type="checkbox" id="billingToggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="toggle-label yearly">שנתי <span class="badge">חסוך 20%</span></span>
+                </div>
+                <div class="pricing-grid">
+                    <article class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>מתחיל</h3>
+                            <div class="price">
+                                <span class="amount monthly">₪49</span>
+                                <span class="amount yearly" style="display:none">₪39</span>
+                                <span class="period">/חודש</span>
+                            </div>
+                            <p>לעסקים קטנים ופרילנסרים</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>✓ עד 5 משתמשים</li>
+                            <li>✓ 10 אוטומציות</li>
+                            <li>✓ דשבורד בסיסי</li>
+                            <li>✓ תמיכה במייל</li>
+                            <li>✓ 1GB אחסון</li>
+                        </ul>
+                        <button class="cta-btn outline">התחל בחינם</button>
+                    </article>
+                    <article class="pricing-card popular">
+                        <div class="popular-badge">הכי פופולרי</div>
+                        <div class="pricing-header">
+                            <h3>מקצועי</h3>
+                            <div class="price">
+                                <span class="amount monthly">₪149</span>
+                                <span class="amount yearly" style="display:none">₪119</span>
+                                <span class="period">/חודש</span>
+                            </div>
+                            <p>לצוותים צומחים</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>✓ עד 25 משתמשים</li>
+                            <li>✓ אוטומציות ללא הגבלה</li>
+                            <li>✓ דשבורדים מתקדמים</li>
+                            <li>✓ תמיכה בעדיפות גבוהה</li>
+                            <li>✓ 50GB אחסון</li>
+                            <li>✓ API Access</li>
+                        </ul>
+                        <button class="cta-btn primary">התחל עכשיו</button>
+                    </article>
+                    <article class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>ארגוני</h3>
+                            <div class="price">
+                                <span class="amount monthly">₪399</span>
+                                <span class="amount yearly" style="display:none">₪319</span>
+                                <span class="period">/חודש</span>
+                            </div>
+                            <p>לארגונים גדולים</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>✓ משתמשים ללא הגבלה</li>
+                            <li>✓ הכל ללא הגבלה</li>
+                            <li>✓ דוחות מותאמים אישית</li>
+                            <li>✓ מנהל הצלחה ייעודי</li>
+                            <li>✓ אחסון ללא הגבלה</li>
+                            <li>✓ SSO & אבטחה מתקדמת</li>
+                        </ul>
+                        <button class="cta-btn outline">צור קשר</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>מה הלקוחות אומרים</h2>
+                    <p>אלפי עסקים כבר משתמשים ב-TechFlow</p>
+                </div>
+                <div class="testimonials-grid">
+                    <article class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"TechFlow שינה לחלוטין את הדרך בה הצוות שלנו עובד. חסכנו 20+ שעות בשבוע רק על אוטומציות."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">שרה</div>
+                            <div class="author-info">
+                                <span class="author-name">שרה כהן</span>
+                                <span class="author-role">CTO, StartupXYZ</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"ההטמעה הייתה חלקה והתמיכה יוצאת דופן. תוך שבוע כבר ראינו ROI חיובי."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">דוד</div>
+                            <div class="author-info">
+                                <span class="author-name">דוד לוי</span>
+                                <span class="author-role">VP Operations, TechCorp</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"סוף סוף כלי שמבין עסקים ישראליים. העברית מלאה, התמיכה בעברית, והמחיר הוגן."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">מיכל</div>
+                            <div class="author-info">
+                                <span class="author-name">מיכל רוזן</span>
+                                <span class="author-role">מייסדת, GrowthLab</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>מוכן להתחיל?</h2>
+                    <p>הצטרף ל-500+ חברות שכבר משתמשות ב-TechFlow לצמיחה מהירה יותר</p>
+                    <form class="cta-form" id="ctaForm">
+                        <input type="email" placeholder="כתובת אימייל" required>
+                        <button type="submit" class="cta-btn primary">התחל בחינם</button>
+                    </form>
+                    <p class="cta-note">בלחיצה אתה מסכים לתנאי השימוש ומדיניות הפרטיות</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">TechFlow</div>
+                    <p>הפלטפורמה החכמה ביותר לניהול וצמיחה עסקית</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>מוצר</h4>
+                        <ul>
+                            <li><a href="#">מאפיינים</a></li>
+                            <li><a href="#">מחירים</a></li>
+                            <li><a href="#">אינטגרציות</a></li>
+                            <li><a href="#">API</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>חברה</h4>
+                        <ul>
+                            <li><a href="#">אודות</a></li>
+                            <li><a href="#">בלוג</a></li>
+                            <li><a href="#">קריירה</a></li>
+                            <li><a href="#">חדשות</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>משאבים</h4>
+                        <ul>
+                            <li><a href="#">תיעוד</a></li>
+                            <li><a href="#">מרכז עזרה</a></li>
+                            <li><a href="#">קהילה</a></li>
+                            <li><a href="#">וובינרים</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>משפטי</h4>
+                        <ul>
+                            <li><a href="#">פרטיות</a></li>
+                            <li><a href="#">תנאים</a></li>
+                            <li><a href="#">אבטחה</a></li>
+                            <li><a href="#">עוגיות</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 TechFlow. כל הזכויות שמורות.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="GitHub">⌘</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="demoModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">×</button>
+            <h3>צפה בהדגמה חיה</h3>
+            <p>השאר פרטים ונציג שלנו ייצור איתך קשר תוך 24 שעות לתיאום הדגמה מותאמת אישית</p>
+            <form id="demoForm">
+                <input type="text" placeholder="שם מלא" required>
+                <input type="email" placeholder="אימייל עסקי" required>
+                <input type="text" placeholder="שם חברה" required>
+                <select required>
+                    <option value="">גודל צוות</option>
+                    <option value="1-10">1-10 עובדים</option>
+                    <option value="11-50">11-50 עובדים</option>
+                    <option value="51-200">51-200 עובדים</option>
+                    <option value="200+">200+ עובדים</option>
+                </select>
+                <button type="submit" class="cta-btn primary">קבע הדגמה</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
